@@ -10,7 +10,7 @@ interface ChatMessageActionProps extends React.ComponentProps<'div'> {
     message: Message
 }
 
-export default function copyToClipboard ({
+export default function CopyToClipboard ({
     message,
     className,
     ...props
